@@ -16,14 +16,25 @@ const MobileRoadMapPreview = ({
   const scroll = () => {
 
     const newStep = Math.floor(
-      // Divide the step container's scrollLeft up to the middle of the screen with the size of a step
-      // to determine which step is present at the middle of the screen
-      (stepsRef.current.scrollLeft + window.innerWidth / 2) / (window.innerWidth - 70 + 12)
+      // Determine which step is fully visible on screen
+      stepsRef.current.scrollLeft / (window.innerWidth - 70 + 12)
     );
 
-    // If it has changed, save it and highlight it as the current step
+    // If it is different from the current step:
     if (currentStep !== newStep) {
+
+      // Save it and highlight it as the current step
       setCurrentStep(newStep);
+
+      // Stop scroll inertia (except when going to previous step, which happens at the start of the scroll)
+      if ((currentStep - 1) !== newStep) {
+        stepsRef.current.style.overflow = 'hidden';
+        stepsRef.current.scrollLeft = stepsRef.current.scrollLeft;
+        setTimeout(() => {
+          // Ref is not available in setTimeout, use querySelector instead
+          document.querySelector('.mobile-roadmap-preview-steps').style.overflow = 'auto';
+        }, 100);
+      }
     }
   };
 
