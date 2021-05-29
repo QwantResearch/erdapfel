@@ -39,6 +39,17 @@ localizedUrls:
     aboutPrivacy: https://about.qwant.com/legal/privacy
     aboutMapsToS: https://about.qwant.com/legal/terms-of-service/qwant-maps/
     contributing: https://github.com/Qwant/qwantmaps/blob/master/contributing.md
+    helpGeolocation: https://help.wp-cc.qwant.plive/en/docs/maps/activation-of-geolocation-after-denied-access/
+    helpEditData: https://help.wp-cc.qwant.plive/en/docs/maps/how-to-add-or-modify-data/
+  fr:
+    helpGeolocation: https://help.wp-cc.qwant.plive/docs/maps/activation-de-la-geolocalisation-apres-refus/
+    helpEditData: https://help.wp-cc.qwant.plive/docs/maps/comment-ajouter-ou-modifier-des-donnees/
+  de:
+    helpGeolocation: https://help.wp-cc.qwant.plive/de/docs/maps/aktivierung-der-standorterfassung-nach-ablehnung/
+    helpEditData: https://help.wp-cc.qwant.plive/de/docs/maps/wie-kann-ich-daten-hinzufuegen-oder-bearbeiten/
+  it:
+    helpGeolocation: https://help.wp-cc.qwant.plive/it/docs/maps/attivazione-della-geolocalizzazione-dopo-il-rifiuto/
+    helpEditData: https://help.wp-cc.qwant.plive/it/docs/maps/come-aggiungere-o-modificare-dati/
 
 # Map
 map:

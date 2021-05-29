@@ -5,6 +5,7 @@ import { listen } from 'src/libs/customEvents';
 import { Button, CloseButton } from 'src/components/ui';
 import classnames from 'classnames';
 import { useI18n } from 'src/hooks';
+import { IconExternalLink } from 'src/components/ui/icons';
 
 let hasPermissionModalOpenedOnce = false;
 
@@ -50,7 +51,10 @@ const GeolocationModal = ({ status, onClose, onAccept }) => {
         'Allow Qwant Maps to access your position so we can better help you find your way…',
         'geolocation'
       ),
-      button: _('Ok', 'geolocation'),
+      link: {
+        label: _('How to access the geolocation services?', 'geolocation'),
+        url: getLocalizedUrl('helpGeolocation'),
+      },
       className: 'modal__maps__denied',
     },
     NOT_ACTIVATED: {
@@ -58,13 +62,16 @@ const GeolocationModal = ({ status, onClose, onAccept }) => {
       text: _(
         "We can't access your position.<br/> Please check that your geolocation services are enabled."
       ),
-      button: _('Ok', 'geolocation'),
+      link: {
+        label: _('How to access the geolocation services?', 'geolocation'),
+        url: getLocalizedUrl('helpGeolocation'),
+      },
       className: 'modal__maps__not-activated',
     },
   };
   /* eslint-enable max-len */
 
-  const { title, text, button, className } = statuses[status];
+  const { title, text, button, link, className } = statuses[status];
   return (
     <Modal onClose={onClose}>
       <div className={classnames('modal__maps', className)}>
@@ -78,9 +85,16 @@ const GeolocationModal = ({ status, onClose, onAccept }) => {
             className="modal__subtitle u-text--subtitle"
             dangerouslySetInnerHTML={{ __html: text }}
           />
-          <Button className="modal__button" variant="primary" onClick={onAccept}>
-            {button}
-          </Button>
+          {button && (
+            <Button className="modal__button" variant="primary" onClick={onAccept}>
+              {button}
+            </Button>
+          )}
+          {link && (
+            <Button href={link.url} variant="tertiary" icon={<IconExternalLink width={16} />}>
+              {link.label}
+            </Button>
+          )}
         </div>
       </div>
     </Modal>
