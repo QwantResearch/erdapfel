@@ -13,18 +13,22 @@ const TransactionalButton = ({ poi }) => {
   let icon;
   let label;
   let url;
+  let telemetryEvent;
   if (booking_url) {
     icon = <IconCalendar width={16} />;
     url = booking_url;
     label = _('Booking', 'poi panel');
+    telemetryEvent = 'transactional_booking';
   } else if (appointment_url) {
     icon = <IconCalendar width={16} />;
     url = appointment_url;
     label = _('Appointment', 'poi panel');
+    telemetryEvent = 'transactional_appointment';
   } else if (quotation_request_url) {
     icon = <IconFileList width={16} />;
     url = quotation_request_url;
     label = _('Request for quotation', 'poi panel');
+    telemetryEvent = 'transactional_quotationRequest';
   } else {
     return null;
   }
@@ -32,7 +36,7 @@ const TransactionalButton = ({ poi }) => {
   const sendTelemetryEvent = () => {
     Telemetry.sendPoiEvent(
       poi,
-      'transactional',
+      telemetryEvent,
       Telemetry.buildInteractionData({
         id: poi.id,
         source: poi.meta?.source,
