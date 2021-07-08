@@ -32,7 +32,7 @@ export default class MobileCompassControl {
   }
 
   _geolocate() {
-    navigator.geolocation.getCurrentPosition(
+    window.getPosition(
       position => {
         this._map.flyTo({ center: [position.coords.longitude, position.coords.latitude] });
       },

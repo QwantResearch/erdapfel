@@ -25,7 +25,7 @@ export default class NavigatorGeolocalisationPoi extends Poi {
   async geolocate(options = { displayErrorModal: true }) {
     return new Promise((resolve, reject) => {
       this.status = navigatorGeolocationStatus.PENDING;
-      navigator.geolocation.getCurrentPosition(
+      window.getPosition(
         position => {
           this.setPosition({ lat: position.coords.latitude, lng: position.coords.longitude });
           resolve();
