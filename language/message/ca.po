@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-25 13:47+0000\n"
+"POT-Creation-Date: 2021-07-12 14:51+0000\n"
 "PO-Revision-Date: 2018-08-27 07:45+0000\n"
 "Last-Translator: Albert mb <arnicamontana363@gmail.com>, 2021\n"
 "Language-Team: Catalan (https://www.transifex.com/qwant-1/teams/89416/ca/)\n"
@@ -302,9 +302,6 @@ msgstr "mercat"
 msgid "Search with Qwant Maps"
 msgstr "Cerca Qwant Maps"
 
-msgid "My location"
-msgstr "La meva ubicació"
-
 msgid "Close"
 msgstr "Tanca"
 
@@ -372,6 +369,27 @@ msgid ""
 "Please try to correct your query or rewrite it with more details about the "
 "location (city, country, …)"
 msgstr ""
+
+msgid "Make a booking"
+msgstr ""
+
+msgid "Make an appointment"
+msgstr ""
+
+msgid "Request a quote"
+msgstr ""
+
+msgid "Directions"
+msgstr "Indicacions"
+
+msgid "Call"
+msgstr "Truca"
+
+msgid "Favorites"
+msgstr "Preferits"
+
+msgid "Share"
+msgstr "Comparteix"
 
 msgid ""
 "Always respecting your privacy.<br>As stated in {privacyPolicyLink}our "
@@ -1008,6 +1026,9 @@ msgstr ""
 msgid "How to contribute"
 msgstr "Com contribuir-hi"
 
+msgid "Report a bug"
+msgstr ""
+
 msgid "Products"
 msgstr ""
 
@@ -1053,9 +1074,6 @@ msgstr "Menú"
 msgid "Go back"
 msgstr ""
 
-msgid "Share"
-msgstr "Comparteix"
-
 msgid "Delete"
 msgstr "Suprimeix"
 
@@ -1069,24 +1087,6 @@ msgstr "Llocs preferits"
 
 msgid "Show favorites"
 msgstr "Mostra els preferits"
-
-msgid "Booking"
-msgstr ""
-
-msgid "Appointment"
-msgstr ""
-
-msgid "Request for quotation"
-msgstr ""
-
-msgid "Directions"
-msgstr "Indicacions"
-
-msgid "Call"
-msgstr "Truca"
-
-msgid "Favorites"
-msgstr "Preferits"
 
 msgid "opening hours"
 msgstr "horari d'obertura"
@@ -1181,6 +1181,9 @@ msgstr "Desconegut"
 msgid "Read more on Wikipedia"
 msgstr "Més informació a la Viquipèdia"
 
+msgid "Social networks"
+msgstr ""
+
 msgid "Information"
 msgstr "Informació"
 
@@ -1193,17 +1196,17 @@ msgstr "Mostra"
 msgid "Edit"
 msgstr "Edita"
 
-msgid "Back to Qwant.com"
-msgstr ""
-
-msgid "Display all results"
-msgstr "Mostrar tots els resultats"
-
 msgid "In partnership with"
 msgstr "En col·laboració amb"
 
 msgid "Search around this place"
 msgstr "Cerca prop d'aquest lloc"
+
+msgid "Back to Qwant.com"
+msgstr ""
+
+msgid "Display all results"
+msgstr "Mostrar tots els resultats"
 
 msgid "See more nearby services"
 msgstr "Veure més serveis propers"
@@ -1328,3 +1331,6 @@ msgstr ""
 
 msgid "Do not display this message again"
 msgstr "No mostrar aquest missatge"
+
+msgid "My location"
+msgstr "La meva ubicació"

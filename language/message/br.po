@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-25 13:47+0000\n"
+"POT-Creation-Date: 2021-07-12 14:51+0000\n"
 "PO-Revision-Date: 2018-08-27 07:45+0000\n"
 "Last-Translator: Adrien Matissart, 2021\n"
 "Language-Team: Breton (https://www.transifex.com/qwant-1/teams/89416/br/)\n"
@@ -301,9 +301,6 @@ msgstr "marc'had"
 msgid "Search with Qwant Maps"
 msgstr "Klask gant Qwant Maps"
 
-msgid "My location"
-msgstr "Ma lec'hiadur"
-
 msgid "Close"
 msgstr "Serriñ"
 
@@ -371,6 +368,27 @@ msgid ""
 "Please try to correct your query or rewrite it with more details about the "
 "location (city, country, …)"
 msgstr ""
+
+msgid "Make a booking"
+msgstr ""
+
+msgid "Make an appointment"
+msgstr ""
+
+msgid "Request a quote"
+msgstr ""
+
+msgid "Directions"
+msgstr "Tuadurioù"
+
+msgid "Call"
+msgstr "Gervel"
+
+msgid "Favorites"
+msgstr "Sinedoù"
+
+msgid "Share"
+msgstr "Rannañ"
 
 msgid ""
 "Always respecting your privacy.<br>As stated in {privacyPolicyLink}our "
@@ -1008,6 +1026,9 @@ msgstr ""
 msgid "How to contribute"
 msgstr "Penaos kemer-perzh"
 
+msgid "Report a bug"
+msgstr ""
+
 msgid "Products"
 msgstr ""
 
@@ -1053,9 +1074,6 @@ msgstr "Lañser"
 msgid "Go back"
 msgstr ""
 
-msgid "Share"
-msgstr "Rannañ"
-
 msgid "Delete"
 msgstr "Dilemel"
 
@@ -1070,24 +1088,6 @@ msgstr "Lec'hioù karetañ"
 
 msgid "Show favorites"
 msgstr "Diskouez ar c'haretañ"
-
-msgid "Booking"
-msgstr ""
-
-msgid "Appointment"
-msgstr ""
-
-msgid "Request for quotation"
-msgstr ""
-
-msgid "Directions"
-msgstr "Tuadurioù"
-
-msgid "Call"
-msgstr "Gervel"
-
-msgid "Favorites"
-msgstr "Sinedoù"
 
 msgid "opening hours"
 msgstr "Eurvezhioù digeriñ"
@@ -1184,6 +1184,9 @@ msgstr "Dizanv"
 msgid "Read more on Wikipedia"
 msgstr "Lenn muioc'h war Wikipedia"
 
+msgid "Social networks"
+msgstr ""
+
 msgid "Information"
 msgstr "Titouroù"
 
@@ -1196,17 +1199,17 @@ msgstr "Gwelet"
 msgid "Edit"
 msgstr "Aozañ"
 
-msgid "Back to Qwant.com"
-msgstr ""
-
-msgid "Display all results"
-msgstr "Diskouez an holl zisoc'hoù"
-
 msgid "In partnership with"
 msgstr "E kevelerezh gant"
 
 msgid "Search around this place"
 msgstr "Klask tro-dro al lec'h-mañ"
+
+msgid "Back to Qwant.com"
+msgstr ""
+
+msgid "Display all results"
+msgstr "Diskouez an holl zisoc'hoù"
 
 msgid "See more nearby services"
 msgstr "Diskouez muioc'h a servijoù nes"
@@ -1329,3 +1332,6 @@ msgstr ""
 
 msgid "Do not display this message again"
 msgstr "Na ziskouez ken ar gemennadenn-mañ ken"
+
+msgid "My location"
+msgstr "Ma lec'hiadur"
