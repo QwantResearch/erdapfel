@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-25 13:47+0000\n"
+"POT-Creation-Date: 2021-07-12 14:51+0000\n"
 "PO-Revision-Date: 2018-08-27 07:45+0000\n"
 "Last-Translator: Adrien Matissart, 2021\n"
 "Language-Team: German (https://www.transifex.com/qwant-1/teams/89416/de/)\n"
@@ -302,9 +302,6 @@ msgstr "Marktplatz"
 msgid "Search with Qwant Maps"
 msgstr "Suche mit Qwant Maps"
 
-msgid "My location"
-msgstr "Mein Standort"
-
 msgid "Close"
 msgstr "Schließen"
 
@@ -372,6 +369,27 @@ msgid ""
 "Please try to correct your query or rewrite it with more details about the "
 "location (city, country, …)"
 msgstr ""
+
+msgid "Make a booking"
+msgstr ""
+
+msgid "Make an appointment"
+msgstr ""
+
+msgid "Request a quote"
+msgstr ""
+
+msgid "Directions"
+msgstr "Wegbeschreibung"
+
+msgid "Call"
+msgstr "Anruf"
+
+msgid "Favorites"
+msgstr "Favoriten"
+
+msgid "Share"
+msgstr "Teilen"
 
 msgid ""
 "Always respecting your privacy.<br>As stated in {privacyPolicyLink}our "
@@ -1012,6 +1030,9 @@ msgstr ""
 msgid "How to contribute"
 msgstr "Wie man mitmacht"
 
+msgid "Report a bug"
+msgstr ""
+
 msgid "Products"
 msgstr "Produkte"
 
@@ -1057,9 +1078,6 @@ msgstr "Menü"
 msgid "Go back"
 msgstr ""
 
-msgid "Share"
-msgstr "Teilen"
-
 msgid "Delete"
 msgstr "Löschen"
 
@@ -1074,24 +1092,6 @@ msgstr "Lieblingsorte"
 
 msgid "Show favorites"
 msgstr "Favoriten anzeigen"
-
-msgid "Booking"
-msgstr ""
-
-msgid "Appointment"
-msgstr ""
-
-msgid "Request for quotation"
-msgstr ""
-
-msgid "Directions"
-msgstr "Wegbeschreibung"
-
-msgid "Call"
-msgstr "Anruf"
-
-msgid "Favorites"
-msgstr "Favoriten"
 
 msgid "opening hours"
 msgstr "Öffnungszeiten"
@@ -1187,6 +1187,9 @@ msgstr "Unbekannt"
 msgid "Read more on Wikipedia"
 msgstr "Auf Wikipedia weiterlesen"
 
+msgid "Social networks"
+msgstr ""
+
 msgid "Information"
 msgstr "Informationen"
 
@@ -1199,17 +1202,17 @@ msgstr "Ansicht"
 msgid "Edit"
 msgstr "Bearbeiten"
 
-msgid "Back to Qwant.com"
-msgstr "Zurück zu Qwant.com"
-
-msgid "Display all results"
-msgstr "Alle Ergebnisse anzeigen"
-
 msgid "In partnership with"
 msgstr "In Zusammenarbeit mit"
 
 msgid "Search around this place"
 msgstr "Um diesen Ort herum suchen"
+
+msgid "Back to Qwant.com"
+msgstr "Zurück zu Qwant.com"
+
+msgid "Display all results"
+msgstr "Alle Ergebnisse anzeigen"
 
 msgid "See more nearby services"
 msgstr "Weitere Angebote in der Nähe anzeigen"
@@ -1333,3 +1336,6 @@ msgstr ""
 
 msgid "Do not display this message again"
 msgstr "Diese Nachricht nicht noch einmal anzeigen"
+
+msgid "My location"
+msgstr "Mein Standort"

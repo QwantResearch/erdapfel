@@ -1,15 +1,15 @@
 # 
 # Translators:
-# Adrien Matissart, 2021
 # Benjamin Becquet <b.becquet@qwant.com>, 2021
+# Adrien Matissart, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-25 13:47+0000\n"
+"POT-Creation-Date: 2021-07-12 14:51+0000\n"
 "PO-Revision-Date: 2018-08-27 07:45+0000\n"
-"Last-Translator: Benjamin Becquet <b.becquet@qwant.com>, 2021\n"
+"Last-Translator: Adrien Matissart, 2021\n"
 "Language-Team: French (https://www.transifex.com/qwant-1/teams/89416/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -303,9 +303,6 @@ msgstr "marché"
 msgid "Search with Qwant Maps"
 msgstr "Chercher avec Qwant Maps"
 
-msgid "My location"
-msgstr "Ma position"
-
 msgid "Close"
 msgstr "Fermer"
 
@@ -377,6 +374,27 @@ msgid ""
 msgstr ""
 "Essayez avec une autre orthographe ou ajoutez plus de détails à votre "
 "recherche (ville, pays, …)"
+
+msgid "Make a booking"
+msgstr "Réserver"
+
+msgid "Make an appointment"
+msgstr "Prendre rendez-vous"
+
+msgid "Request a quote"
+msgstr " Demander un devis"
+
+msgid "Directions"
+msgstr "Itinéraire"
+
+msgid "Call"
+msgstr "Appeler"
+
+msgid "Favorites"
+msgstr "Favoris"
+
+msgid "Share"
+msgstr "Partager"
 
 msgid ""
 "Always respecting your privacy.<br>As stated in {privacyPolicyLink}our "
@@ -1019,6 +1037,9 @@ msgstr "Conditions d'utilisation Qwant&nbsp;Maps"
 msgid "How to contribute"
 msgstr "Comment contribuer"
 
+msgid "Report a bug"
+msgstr "Signaler un bug"
+
 msgid "Products"
 msgstr "Produits"
 
@@ -1064,9 +1085,6 @@ msgstr "Menu"
 msgid "Go back"
 msgstr "Retour"
 
-msgid "Share"
-msgstr "Partager"
-
 msgid "Delete"
 msgstr "Supprimer"
 
@@ -1081,24 +1099,6 @@ msgstr "Lieux favoris"
 
 msgid "Show favorites"
 msgstr "Afficher les favoris"
-
-msgid "Booking"
-msgstr "Réserver"
-
-msgid "Appointment"
-msgstr "Prendre RDV"
-
-msgid "Request for quotation"
-msgstr "Devis"
-
-msgid "Directions"
-msgstr "Itinéraire"
-
-msgid "Call"
-msgstr "Appeler"
-
-msgid "Favorites"
-msgstr "Favoris"
 
 msgid "opening hours"
 msgstr "horaires d'ouverture"
@@ -1195,6 +1195,9 @@ msgstr "Inconnu"
 msgid "Read more on Wikipedia"
 msgstr "Lire la suite sur Wikipédia"
 
+msgid "Social networks"
+msgstr "Réseaux sociaux"
+
 msgid "Information"
 msgstr "Informations"
 
@@ -1207,17 +1210,17 @@ msgstr "Voir"
 msgid "Edit"
 msgstr "Modifier"
 
-msgid "Back to Qwant.com"
-msgstr "Retour à Qwant.com"
-
-msgid "Display all results"
-msgstr "Afficher tous les résultats"
-
 msgid "In partnership with"
 msgstr "En partenariat avec"
 
 msgid "Search around this place"
 msgstr "Rechercher à proximité"
+
+msgid "Back to Qwant.com"
+msgstr "Retour à Qwant.com"
+
+msgid "Display all results"
+msgstr "Afficher tous les résultats"
 
 msgid "See more nearby services"
 msgstr "Afficher plus de services à proximité"
@@ -1344,3 +1347,6 @@ msgstr ""
 
 msgid "Do not display this message again"
 msgstr "Ne plus afficher ce message"
+
+msgid "My location"
+msgstr "Ma position"
